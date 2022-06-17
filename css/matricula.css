@@ -1,0 +1,91 @@
+.matricula-bg {
+  background: rgb(132, 127, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(132, 127, 221, 1) 0%,
+    rgba(156, 156, 236, 1) 20%,
+    rgba(17, 186, 221, 1) 57%
+  );
+  padding: 60px;
+}
+
+.matricula-titulo {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 40px;
+  font-size: 3rem;
+  color: white;
+}
+
+.matricula-titulo span {
+  font-weight: 800;
+}
+
+.matricula-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.matricula-item {
+  flex: 1 1 450px;
+  background: white;
+  padding: 30px;
+  margin: 20px;
+  gap: 40px;
+  display: flex;
+  align-items: flex-start;
+  font-family: "Nunito", sans-serif;
+}
+
+.matricula-item h3 {
+  font-size: 1.8rem;
+  color: #307cba;
+  margin-bottom: 16px;
+}
+
+.matricula-item p {
+  font-size: 1.4rem;
+  color: #4690cc;
+}
+
+.matricula-info {
+  align-self: center;
+}
+
+.matricula-img {
+  max-width: 70px;
+  align-self: flex-start;
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  .matricula-bg {
+    padding: 20px;
+  }
+  .matricula-item {
+    flex: 1 1 350px;
+    gap: 15px;
+  }
+  .matricula-titulo {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 2rem;
+  }
+  .matricula-item h3 {
+    font-size: 1.5rem;
+  }
+
+  .matricula-item p {
+    font-size: 1.15rem;
+  }
+
+  .matricula-img {
+    max-width: 60px;
+    padding: 10px;
+  }
+}

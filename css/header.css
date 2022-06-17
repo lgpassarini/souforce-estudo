@@ -1,0 +1,50 @@
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.menu-logo {
+  max-width: 120px;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-list li a {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+  padding: 0 20px 50px 20px;
+  text-decoration: none;
+  color: #2196f3;
+  transition: 0.2s;
+}
+
+.menu-list li a:hover {
+  color: #1942b0;
+}
+
+@media (max-width: 540px) {
+  .menu {
+    justify-content: center;
+    padding-top: 50px;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .menu-logo {
+    max-width: 100px;
+  }
+
+  .menu-list a {
+    padding: 0px;
+  }
+}

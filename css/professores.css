@@ -1,0 +1,78 @@
+.professores-bg {
+  background-color: #e7e7e7;
+  padding: 60px 40px;
+}
+
+.professores-container {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.professores-titulo {
+  font-family: "Nunito", sans-serif;
+  font-size: 4rem;
+  margin-left: 8rem;
+  color: #2196f3;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.professores-titulo span {
+  background: #2196f3;
+  padding: 5px 20px;
+  color: white;
+}
+
+.professores-item {
+  font-family: "Nunito", sans-serif;
+  flex: 1 1 400px;
+  margin: 20px;
+  background: white;
+  padding: 60px 20px;
+  box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.professores-item img {
+  max-width: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.professores-item h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.professores-item p {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 1.5;
+  max-width: 35ch;
+  margin: 0 auto;
+  color: #529ad6;
+}
+
+.professores-item p span {
+  font-weight: 800;
+}
+
+@media (max-width: 850px) {
+  .professores-titulo {
+    margin-left: 20px;
+    font-size: 2.5rem;
+    max-width: 15ch;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 550px) {
+  .professores-item p {
+    display: none;
+  }
+
+  .professores-item h3 {
+    margin: 10px 0 0 0;
+  }
+}

@@ -1,0 +1,101 @@
+.main-bg {
+  background: rgb(132, 127, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(132, 127, 221, 1) 0%,
+    rgba(156, 156, 236, 1) 20%,
+    rgba(17, 186, 221, 1) 57%
+  );
+  padding: 110px 40px;
+}
+
+.main-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-info {
+  flex: 3 1 300px;
+  max-width: 60ch;
+  font-family: "Nunito", sans-serif;
+}
+
+.main-info h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.main-info p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  color: white;
+}
+
+.main-info a {
+  display: block;
+  max-width: fit-content;
+  background: rgb(127, 210, 229);
+  padding: 30px 40px;
+  font-size: 1.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+  color: white;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
+.main-info a:hover {
+  background-color: rgb(117, 201, 220);
+  padding: 30px 45px;
+}
+
+.main-info a span {
+  transition: 0.2s;
+}
+
+.main-info a:hover span {
+  margin-left: 4px;
+}
+
+.main-img img {
+  flex: 1 1 250px;
+  max-width: 500px;
+}
+
+@media (max-width: 500px) {
+  .main-bg {
+    padding: 80px 30px;
+  }
+
+  .main-info h1 {
+    font-size: 2.25rem;
+  }
+
+  .main-info p {
+    font-size: 1.25rem;
+    max-width: 35ch;
+    margin-bottom: 1.5rem;
+  }
+
+  .main-info a {
+    padding: 20px 20px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 950px) {
+  .main-img {
+    display: none;
+  }
+}

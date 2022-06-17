@@ -1,0 +1,104 @@
+.inscricao {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.inscricao-info {
+  flex: 1 1 400px;
+  font-family: "Nunito", sans-serif;
+}
+
+.inscricao-info h1 {
+  font-size: 2.25rem;
+  color: #222;
+  margin-bottom: 2rem;
+}
+
+.inscricao-info p {
+  font-size: 1.5rem;
+  color: #222;
+}
+
+.form-bg {
+  flex: 2 1 500px;
+  background: #2196f3;
+  padding: 60px;
+}
+
+.form-bg h1 {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 2.25rem;
+  color: white;
+  margin-bottom: 32px;
+}
+
+.form-bg input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+}
+
+.form-bg a {
+  display: block;
+  text-decoration: none;
+  background: rgb(127, 210, 229);
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 15px;
+  text-align: center;
+  font-weight: 800;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.form-bg a:hover {
+  background-color: rgb(117, 201, 220);
+}
+
+.form-bg span {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .form-bg h1 {
+    font-size: 1.8rem;
+  }
+
+  .form-bg a {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .form-bg h1 {
+    font-size: 1.6rem;
+  }
+
+  .form-bg a {
+    font-size: 1.15rem;
+  }
+  .inscricao {
+    padding: 40px;
+  }
+  .form-bg {
+    padding: 30px;
+  }
+}

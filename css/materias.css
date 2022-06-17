@@ -1,0 +1,89 @@
+.materias-bg {
+  background: #f7f7f7;
+  padding: 60px;
+}
+
+.materias {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.materias-titulo {
+  font-family: "Nunito", sans-serif;
+  font-size: 4rem;
+  margin-left: 8rem;
+  color: #2196f3;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.materias-titulo span {
+  background: #2196f3;
+  padding: 5px 20px;
+  color: white;
+}
+
+.materias-item {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  background: white;
+  padding: 40px;
+  margin: 20px;
+  flex: 1 1 450px;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.materias-item img {
+  max-width: 50px;
+}
+
+.materias-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.materias-item p {
+  max-width: 40ch;
+  font-size: 1.25rem;
+  color: #657c8f;
+  line-height: 1.6;
+}
+
+.materias-icon {
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+@media (max-width: 850px) {
+  .materias-bg {
+    padding: 20px;
+  }
+  .materias-item {
+    flex: 1 1 350px;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .materias-item img {
+    max-width: 25px;
+  }
+
+  .materias-item h3 {
+    font-size: 1.45rem;
+  }
+
+  .materias-item p {
+    font-size: 1.15rem;
+    line-height: 1.2;
+  }
+  .materias-titulo {
+    margin-left: 20px;
+    font-size: 2.5rem;
+    max-width: 15ch;
+    line-height: 1.6;
+  }
+}
