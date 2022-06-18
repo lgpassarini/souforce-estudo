@@ -1,0 +1,136 @@
+.bg {
+  height: 600px;
+  background-image: url(../img/nuvens-img.png);
+  background-size: cover;
+  background-position: top;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 300px 40px 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  max-width: 175px;
+}
+
+.footer-item {
+  font-family: "Nunito", sans-serif;
+}
+
+.footer-item ul {
+  list-style: none;
+  line-height: 1.8;
+}
+
+.footer-item h3 {
+  font-size: 1.5rem;
+  color: #307cba;
+  margin-bottom: 8px;
+}
+
+.footer-item ul li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #4690cc;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.footer-item ul li a::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #307cba;
+  border-radius: 50%;
+}
+
+.footer-container span {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  color: #307cba;
+  font-size: 1rem;
+  font-family: "Nunito", sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .bg {
+    height: 400px;
+  }
+
+  .footer-item {
+    margin: 30px;
+  }
+
+  .footer-item h3 {
+    font-size: 1.15rem;
+  }
+
+  .footer-item ul li a {
+    font-size: 1rem;
+  }
+
+  .footer-logo {
+    max-width: 125px;
+  }
+
+  .footer-container {
+    justify-content: center;
+    padding: 150px 40px 0 40px;
+  }
+
+  .footer-container span {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer-logo {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .bg {
+    height: 900px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: unset;
+    justify-content: unset;
+    padding: 200px 20px 0 20px;
+    gap: 20px;
+  }
+
+  .footer-logo {
+    display: block;
+    max-width: 150px;
+  }
+
+  .footer-item ul {
+    line-height: 1.4;
+  }
+
+  .footer-item h3 {
+    font-size: 1.5rem;
+  }
+
+  .footer-item ul li a {
+    font-size: 1.25rem;
+  }
+
+  .footer-item {
+    margin: 5px;
+  }
+}
